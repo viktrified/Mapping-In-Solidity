@@ -23,9 +23,3 @@ contract RandomLoop {
         return random;
     }
 }
-
-contract MappingBasics {
-    function count(uint _count) public pure returns (uint) {
-        return ++_count;
-    }
-}
